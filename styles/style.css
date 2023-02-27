@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+} 
+header {
+    background-color: #1abc9c;
+    height: 70px;
+}
+
+.wrapper {
+    width: 90%; 
+    margin: 0 auto;
+} 
+
+.header-wrapper { 
+  height: 100%;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+a {
+    font-size: 25px; 
+    color: black;
+    text-decoration: none;
+} 
+a:not(:last-child) {
+    margin-right: 20px;
+} 
+
+.social-icon:not(:last-child) {
+  margin-right: 20px;
+} 
+
+/*раздел о нас*/
+.about {
+display: flex;
+align-items: center; 
+} 
+.about-img {
+  width: 50%;  
+} 
+.about-info {
+  padding: 0 65px;   
+} 
+h1 {
+  font-size: 35px;  
+  text-align: center;
+  margin-bottom: 35px;
+} 
+.about-descr {
+  font-size: 20px; 
+  text-align: justify;
+} 
+
+
+.projects  { 
+  background-color: green;
+  padding: 0 125; 
+} 
+
+h2 {
+font-size: 35px; 
+margin-bottom: 50px;
+}  
+.projects-list { 
+  display: flex; 
+  gap: 35px;
+} 
+.project-item { 
+  width: calc(100% / 3 - 17px);
+} 
+
+h3 { 
+padding: 50px 0 55px 70px; 
+font-family: Inter;
+font-weight: bolder;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+color: #000000;
+} 
+  
+
+.footer-item  { 
+width: calc(100% / 4 - 15%); 
+} 
+
+
+.footer-info { 
+display: flex;
+gap: 35px;
+text-align: center; 
+} 
+
+.footer-title { 
+margin: 36px 37px 25px 37px; 
+font-style: medium;
+font-size: 24px;  
+line-height: 34px; 
+text-align: center;
+vertical-align: top;
+color: #999999;
+font-family: Oswald; 
+} 
+
+.footer-descr {  
+margin: 25px 37px 76px 37px; 
+font-family: Oswald; 
+font-weight: bolder;
+font-style: medium; 
+font-size: 24px; 
+line-height: 36px;
+text-align: center; 
+vertical-align: top;
+color: #000000;
+} 
+ 
